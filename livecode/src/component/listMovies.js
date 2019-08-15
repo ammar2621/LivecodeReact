@@ -17,7 +17,7 @@ class ListMovies extends React.Component {
             return (
               <div class="media borderMov img-thumbnail">
                 <img
-                  src="{value.Poster"
+                  src={value.Poster}
                   class="align-self-start mr-3"
                   alt="..."
                 />
